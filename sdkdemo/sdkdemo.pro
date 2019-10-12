@@ -17,9 +17,8 @@ FORMS       += widget.ui
 
 INCLUDEPATH += $$PWD/sdk
 
-CONFIG(release, debug|release){
-LIBS        += -L$$PWD/sdk/ -lquc
+CONFIG(debug, debug|release){
+LIBS += -L$$PWD/sdk/ -lqucd
 } else {
-unix {LIBS  += -L$$PWD/sdk/ -lquc}
-else {LIBS  += -L$$PWD/sdk/ -lqucd}
+LIBS += -L$$PWD/sdk/ -lquc
 }

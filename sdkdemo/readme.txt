@@ -4,11 +4,12 @@
 第四步：项目的pro文件加入代码
 INCLUDEPATH += $$PWD/sdk
 
-CONFIG(release, debug|release){
-LIBS        += -L$$PWD/sdk/ -lquc
+CONFIG(debug, debug|release){
+LIBS += -L$$PWD/sdk/ -lqucd
 } else {
-unix {LIBS  += -L$$PWD/sdk/ -lquc}
-else {LIBS  += -L$$PWD/sdk/ -lqucd}
+LIBS += -L$$PWD/sdk/ -lquc
 }
 
-说明：本sdkdemo下的dll是mingw 64位+Qt5.12.3版本的。可自行替换成自己编译器编译出来的文件。两个文件都要替换，msvc编译器是dll+lib，mingw编译器是dll+a，gcc编译器是so，clang编译器是dylib。务必记得debug就用debug的，release就用release的，不能交叉用，比如debug编译出来的dll放到release中用，是万万不可以的。
+第五步：编译完成以后记得将动态库文件复制到可执行文件同一目录即可。
+
+说明：本sdkdemo下的dll是qt_5_7_0_mingw530_32 release版本的。可自行替换成自己编译器编译出来的文件。两个文件都要替换，msvc编译器是dll+lib，mingw编译器是dll+a，gcc编译器是so，clang编译器是dylib。务必记得debug就用debug的，release就用release的，不能交叉用，比如debug编译出来的dll放到release中用，是万万不可以的。

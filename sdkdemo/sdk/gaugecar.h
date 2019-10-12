@@ -14,6 +14,7 @@
  * 9:三色圆环按照比例设置范围角度 用户可以自由设置三色占用比例
  * 10:圆环样式可选择 三色圆环 当前圆环
  * 11:指示器样式可选择 圆形指示器 指针指示器 圆角指针指示器 三角形指示器
+ * 12:可设置中间圆的宽度,以便使用更大数值
  */
 
 #include <QWidget>
@@ -35,9 +36,9 @@ class GaugeCar : public QWidget
     Q_ENUMS(PieStyle)
     Q_ENUMS(PointerStyle)
 
-    Q_PROPERTY(double value READ getValue WRITE setValue)
     Q_PROPERTY(double minValue READ getMinValue WRITE setMinValue)
     Q_PROPERTY(double maxValue READ getMaxValue WRITE setMaxValue)
+    Q_PROPERTY(double value READ getValue WRITE setValue)
     Q_PROPERTY(int precision READ getPrecision WRITE setPrecision)
 
     Q_PROPERTY(int scaleMajor READ getScaleMajor WRITE setScaleMajor)
@@ -64,6 +65,7 @@ class GaugeCar : public QWidget
     Q_PROPERTY(bool showOverlay READ getShowOverlay WRITE setShowOverlay)
     Q_PROPERTY(QColor overlayColor READ getOverlayColor WRITE setOverlayColor)
 
+    Q_PROPERTY(int circleWidth READ getCircleWidth WRITE setCircleWidth)
     Q_PROPERTY(PieStyle pieStyle READ getPieStyle WRITE setPieStyle)
     Q_PROPERTY(PointerStyle pointerStyle READ getPointerStyle WRITE setPointerStyle)
 
@@ -78,7 +80,7 @@ public:
         PointerStyle_Indicator = 1,     //指针指示器
         PointerStyle_IndicatorR = 2,    //圆角指针指示器
         PointerStyle_Triangle = 3       //三角形指示器
-	};
+    };
 
     explicit GaugeCar(QWidget *parent = 0);
     ~GaugeCar();
@@ -97,15 +99,15 @@ protected:
     void drawPointerTriangle(QPainter *painter);
     void drawRoundCircle(QPainter *painter);
     void drawCenterCircle(QPainter *painter);
-    void drawText(QPainter *painter);
+    void drawValue(QPainter *painter);
     void drawOverlay(QPainter *painter);
 
 private slots:
     void updateValue();
 
-private:    
-    double maxValue;                //最小值
-    double minValue;                //最大值
+private:
+    double minValue;                //最小值
+    double maxValue;                //最大值
     double value;                   //目标值
     int precision;                  //精确度,小数点后几位
 
@@ -133,6 +135,7 @@ private:
     bool showOverlay;               //显示遮罩层
     QColor overlayColor;            //遮罩层颜色
 
+    int circleWidth;                //中间圆宽度
     PieStyle pieStyle;              //饼图样式
     PointerStyle pointerStyle;      //指针样式
 
@@ -140,7 +143,7 @@ private:
     double currentValue;            //当前值
     QTimer *timer;                  //定时器绘制动画
 
-public:    
+public:
     double getMinValue()            const;
     double getMaxValue()            const;
     double getValue()               const;
@@ -170,6 +173,7 @@ public:
     bool getShowOverlay()           const;
     QColor getOverlayColor()        const;
 
+    int getCircleWidth()            const;
     PieStyle getPieStyle()          const;
     PointerStyle getPointerStyle()  const;
 
@@ -232,13 +236,15 @@ public Q_SLOTS:
     //设置遮罩层颜色
     void setOverlayColor(const QColor &overlayColor);
 
+    //设置中间圆宽度
+    void setCircleWidth(int circleWidth);
     //设置饼图样式
-    void setPieStyle(PieStyle pieStyle);
+    void setPieStyle(const PieStyle &pieStyle);
     //设置指针样式
-    void setPointerStyle(PointerStyle pointerStyle);
+    void setPointerStyle(const PointerStyle &pointerStyle);
 
 Q_SIGNALS:
     void valueChanged(int value);
 };
 
-#endif //GAUGECAR_H
+#endif // GAUGECAR_H
