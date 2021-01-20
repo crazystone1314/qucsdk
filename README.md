@@ -38,10 +38,8 @@ Qt编写的自定义控件插件的sdk集合，包括了各个操作系统的动
  8. 部分控件提供多种样式风格选择，多种指示器样式选择。
  9. 所有控件自适应窗体拉伸变化。
  10. 集成自定义控件属性设计器，支持拖曳设计，所见即所得，支持导入导出xml格式。
- 11. 自带activex控件demo，所有控件可以直接运行在ie浏览器中。
- 12. 集成fontawesome图形字体+阿里巴巴iconfont收藏的几百个图形字体，享受图形字体带来的乐趣。
- 13. 所有控件最后生成一个dll动态库文件，可以直接集成到qtcreator中拖曳设计使用。
- 14. 目前已经有qml版本，后期会考虑出pyqt版本，如果用户需求量很大的话。
+ 11. 集成fontawesome图形字体+阿里巴巴iconfont收藏的几百个图形字体，享受图形字体带来的乐趣。
+ 12. 所有控件最后生成一个dll动态库文件，可以直接集成到qtcreator中拖曳设计使用。
 
 ![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/000.gif)
 ![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/00.gif)
