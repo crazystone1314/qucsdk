@@ -5,6 +5,7 @@ Qt编写的自定义控件插件的sdk集合，包括了各个操作系统的动
 - 体验地址：[https://pan.baidu.com/s/1A5Gd77kExm8Co5ckT51vvQ](https://pan.baidu.com/s/1A5Gd77kExm8Co5ckT51vvQ) 
 - 提取密码：877p 
 - 文件名称：bin_quc.zip
+- 尊贵提示：可付费购买控件完整源码，每个控件都有独立的使用demo
 
 #### 版本说明
 1. sdk分带日期的目录，建议用新版本。
