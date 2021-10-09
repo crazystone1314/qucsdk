@@ -7,6 +7,7 @@ Qt编写的自定义控件插件的sdk集合，包括了多个操作系统的动
 - 文件名称：控件演示 bin_quc.zip ，其余为各个日期对应生成的动态库和头文件。
 - 特别提示：**由于开源平台上传大小有限，后期更新一直在网盘，这里找不到对应版本请到网盘下载。**
 - 尊贵提示：可付费购买控件完整源码，每个控件都有独立的使用demo。
+- 使用示例：[https://qtchina.blog.csdn.net/category_11350084.html](https://qtchina.blog.csdn.net/category_11350084.html)
 
 #### 三、版本说明
 1. sdk分带日期的目录，建议用新版本。
@@ -58,42 +59,81 @@ Qt编写的自定义控件插件的sdk集合，包括了多个操作系统的动
 20. 所有控件最后生成一个dll动态库文件，可以直接集成到qtcreator中拖曳设计使用。
 21. 控件源码全部分门别类存放，pri模块形式集成，提供控件对照表快速查找对应控件和说明。
 
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/000.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/00.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/0.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/0.png)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/1_qtcreator_msvc2017.png)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/customring.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/gaugecar.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/gaugecolor.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/gaugemini.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/gaugepanel.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/gaugepercent.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/gaugespeed.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/progresspercent.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/telwidget.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/wavebar.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/switchbutton.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/progresstip.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/gaugeedit.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/timeaxis.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/shadowclock.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/shadowcalendar.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/progressshadow.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/wavewater.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/progressarc.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/scantantan.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/imageanimation.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/gaugecompasspan.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/progressbutton.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/lunarcalendarwidget.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/colorpanel.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/navlistview.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/navbutton.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/gaugecloud.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/gaugedial.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/rulerprogress.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/gaugeprogress.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/rulerslider.gif)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/1_property1.png)
-![avatar](https://github.com/feiyangqingyun/qucsdk/raw/master/snap/1_property2.png)
+#### 八、部分控件效果图
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/000.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/customring.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/gaugecar.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/gaugecolor.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/gaugemini.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/gaugepanel.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/gaugepercent.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/gaugespeed.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/progresspercent.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/telwidget.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/wavebar.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/switchbutton.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/progresstip.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/gaugeedit.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/timeaxis.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/shadowclock.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/shadowcalendar.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/progressshadow.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/wavewater.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/progressarc.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/scantantan.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/imageanimation.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/gaugecompasspan.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/progressbutton.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/lunarcalendarwidget.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/colorpanel.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/navlistview.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/navbutton.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/gaugecloud.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/gaugedial.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/rulerprogress.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/gaugeprogress.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/rulerslider.gif)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/1_property1.png)
+![avatar](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/1_property2.png)
+
+#### 九、不同系统效果图
+##### 9.1 windows-mingw
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-1-1.jpg)
+
+##### 9.2 windows-msvc
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-2-1.jpg)
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-2-2.jpg)
+
+##### 9.3 linux-ubuntu
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-3-1.jpg)
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-3-2.jpg)
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-3-3.jpg)
+
+##### 9.4 linux-deepin
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-4-1.jpg)
+
+##### 9.5 linux-uos
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-5-1.jpg)
+
+##### 9.6 linux-kylin
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-6-1.jpg)
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-6-2.jpg)
+
+##### 9.7 linux-newstart
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-7-1.jpg)
+
+##### 9.8 linux-fedoar
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-8-1.jpg)
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-8-2.jpg)
+
+##### 9.9 unix-mac
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-9-1.jpg)
+
+##### 9.10 web-chromium
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-10-1.jpg)
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-10-2.jpg)
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-10-3.jpg)
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-10-4.jpg)
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-10-5.jpg)
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-10-6.jpg)
+ ![](https://github.com/feiyangqingyun/QUCSDK/raw/master/snap/4-10-7.jpg)
