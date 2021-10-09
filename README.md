@@ -1,13 +1,13 @@
-﻿#### 一、项目介绍
+﻿﻿#### 一、项目介绍
 Qt编写的自定义控件插件的sdk集合，包括了多个操作系统的动态库文件、控件头文件、sdk使用demo、使用说明等。
 
 #### 二、下载地址
+- 使用示例：[https://qtchina.blog.csdn.net/category_11350084.html](https://qtchina.blog.csdn.net/category_11350084.html)
 - 下载地址：[https://pan.baidu.com/s/1A5Gd77kExm8Co5ckT51vvQ](https://pan.baidu.com/s/1A5Gd77kExm8Co5ckT51vvQ) 
 - 提取密码：877p 
 - 文件名称：控件演示 bin_quc.zip ，其余为各个日期对应生成的动态库和头文件。
 - 特别提示：**由于开源平台上传大小有限，后期更新一直在网盘，这里找不到对应版本请到网盘下载。**
 - 尊贵提示：可付费购买控件完整源码，每个控件都有独立的使用demo。
-- 使用示例：[https://qtchina.blog.csdn.net/category_11350084.html](https://qtchina.blog.csdn.net/category_11350084.html)
 
 #### 三、版本说明
 1. sdk分带日期的目录，建议用新版本。
