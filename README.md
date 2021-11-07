@@ -2,7 +2,7 @@
 Qt编写的自定义控件插件的sdk集合，包括了多个操作系统的动态库文件、控件头文件、sdk使用demo、使用说明等。
 
 #### 二、下载地址
-- 使用示例：[https://qtchina.blog.csdn.net/category_11350084.html](https://qtchina.blog.csdn.net/category_11350084.html)
+- 使用示例：[https://qtchina.blog.csdn.net/article/details/121188343](https://qtchina.blog.csdn.net/article/details/121188343)
 - 下载地址：[https://pan.baidu.com/s/1A5Gd77kExm8Co5ckT51vvQ](https://pan.baidu.com/s/1A5Gd77kExm8Co5ckT51vvQ)  密码：877p
 - 文件名称：控件演示 bin_quc.zip ，其余为各个日期对应生成的动态库和头文件。
 - 特别提示：**由于开源平台上传大小有限，后期更新一直在网盘，这里找不到对应版本请到网盘下载。**
