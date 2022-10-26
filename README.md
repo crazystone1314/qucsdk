@@ -107,8 +107,6 @@ Qt编写的自定义控件插件的sdk集合，包括了多个操作系统的动
 ![avatar](snap/rulerprogress.gif)
 ![avatar](snap/gaugeprogress.gif)
 ![avatar](snap/rulerslider.gif)
-![avatar](snap/1_property1.png)
-![avatar](snap/1_property2.png)
 
 ## 9 不同系统效果图
 ### 9.1 windows-mingw
